@@ -25,7 +25,8 @@
         "symfony/twig-pack": "*",
         "symfony/validator": "4.4.*",
         "symfony/web-link": "4.4.*",
-        "symfony/yaml": "4.4.*"
+        "symfony/yaml": "4.4.*",
+        "friendsofsymfony/user-bundle": "^2.1"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
@@ -41,7 +42,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Syrius\\UserBundle\\" : "syriusphp/UserBundle/src"
+
         }
     },
     "autoload-dev": {
